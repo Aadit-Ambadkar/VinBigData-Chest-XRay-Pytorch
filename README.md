@@ -6,7 +6,7 @@
 These are my notebooks for the VinBigData Chest XRay competition: "Automatically localize and classify thoracic abnormalities from chest radiographs"
 
 ## Model
-I used an ensemble of a 2Class Predictor (Classifies if any disease is present in the Image) and a Faster-RCNN Model from Pytorch on a custom 1024x1024 Dataset
+I used an ensemble of a 2Class CNN Classifier from Pytorch (Classifies if any disease is present in the Image) and a Faster-RCNN Model from Pytorch on a custom 1024x1024 Dataset
 
 ## Results
 This gave results anywhere from 0.102 to 0.235 with mAP 0.4
